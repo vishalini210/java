@@ -1,0 +1,23 @@
+import java.io.*;
+import java.util.*;
+import java.text.*;
+import java.math.*;
+import java.util.regex.*;
+
+public class Solution {
+
+    public static void main(String[] args) {
+        /* Enter your code here. Read input from STDIN. Print output to STDOUT. Your class should be named Solution. */
+        Scanner sc=new Scanner(System.in);
+        int a=sc.nextInt();
+        int b=sc.nextInt();
+        int c=sc.nextInt();
+        int total=(a*100)+(b*20)+(c*10);/*Rs.100/pizza Rs.20/puffs Rs.10/cooldrink */
+        System.out.println("Bill Details");
+        System.out.println("No of pizzas:"+a);
+        System.out.println("No of puffs:"+b);
+        System.out.println("No of cooldrinks:"+c);
+        System.out.println("Total price="+total);
+        System.out.println("ENJOY THE SHOW!!!");
+    }
+}
