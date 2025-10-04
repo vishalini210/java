@@ -9,8 +9,9 @@ public class Solution {
     public static void main(String[] args) {
         /* Enter your code here. Read input from STDIN. Print output to STDOUT. Your class should be named Solution. */
         
-        int a=4;
-        double b=5.678;
+        Scanner sc=new Scanner(System.in);
+        int a=nextInt();
+        float b=nextFloat()
         System.out.println(a);
         System.out.printf("%.2f",b);
     }
