@@ -10,8 +10,6 @@ public class Solution {
         /* Enter your code here. Read input from STDIN. Print output to STDOUT. Your class should be named Solution. */
         Scanner AB=new Scanner(System.in);
         String st=AB.next();
-        char sta = st.charAt(0);
-        st="C programming";
         System.out.println("May I know how to learn"+" "+sta+"!!!...");
     }
 }
