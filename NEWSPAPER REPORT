@@ -1,0 +1,23 @@
+import java.io.*;
+import java.util.*;
+import java.text.*;
+import java.math.*;
+import java.util.regex.*;
+
+public class Solution {
+
+    public static void main(String[] args) {
+        /* Enter your code here. Read input from STDIN. Print output to STDOUT. Your class should be named Solution. */
+        Scanner sc=new Scanner(System.in);
+        int a=sc.nextInt();
+        int b=sc.nextInt();
+        int c=sc.nextInt();
+        System.out.println("TSUNAMI REPORT OF JAPAN");
+                System.out.println("The number of people");
+
+        System.out.println("1)Dead:"+a);
+        System.out.println("2)Injured:"+b);
+        System.out.println("3)Safe:"+c);
+        System.out.println("Please help the people who are suffering!!!");
+    }
+}
