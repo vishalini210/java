@@ -1,0 +1,26 @@
+import java.io.*;
+import java.util.*;
+import java.math.*;
+
+public class Solution {
+
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        int num = sc.nextInt();
+
+        if (num < 100) {
+            System.out.println("Invalid Input");
+            return;
+        }
+
+        int a = num, sum = 0, rem = 0;
+
+        while (a > 0) {
+            rem = a % 10;
+            sum += rem;
+            a = a / 10;
+        }
+
+        System.out.println("Sum of digit is " + sum);
+    }
+}
