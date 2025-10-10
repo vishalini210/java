@@ -1,0 +1,25 @@
+import java.util.*;
+public class Solution{
+    public static void main(String []args ){
+        Scanner sc=new Scanner(System.in);
+        int N=sc.nextInt();
+        if(N<100 || N>999){
+            System.out.print("No");
+        
+        }else{
+           int a=N,sum=0;
+        
+        while(N>0){
+            int digit=N%10;
+            sum+=digit*digit*digit;
+            N/=10;
+        }
+        if(sum==a){
+            System.out.println("Yes");
+            
+        }
+        else{
+            System.out.print("NO");
+        }
+    }
+    }}
